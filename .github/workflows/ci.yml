@@ -2,7 +2,7 @@ name: Exemplo de CI
 
 on:
     push:
-          branchs:[main]
+        branchs: [ main ]
 jobs:
     build:
       runs-on: ubuntu-latest
