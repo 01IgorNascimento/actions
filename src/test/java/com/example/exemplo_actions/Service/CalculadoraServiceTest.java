@@ -15,7 +15,6 @@ class CalculadoraServiceTest {
         double esperado = 5;
 
         double resultado = calculadoraService.dividir(a, b);
-
         assertEquals(esperado, resultado);
     }
 }
