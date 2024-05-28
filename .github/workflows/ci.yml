@@ -1,7 +1,7 @@
 name: Exemplo de CI
 
 on:
-    Push:
+    push:
           branchs:[main]
 jobs:
     build:
